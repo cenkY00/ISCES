@@ -25,8 +25,7 @@ const studentSchema = new mongoose.Schema({
   },
   password: {
     type: String,
-    minlength: 6,
-    select: false,
+    minlength: 6
   },
   GPA: {
     type: Number,
